@@ -10,10 +10,6 @@ public class DigitalDownloads extends Utils {
 
     private By _comparisonLink = By.xpath("//a[text()='product comparison']");
 
-//    public void verifyUserIsOnDigitalDownloadsPage() {
-//        assertURL("Digital Downloads");
-//    }
-
     public void chooseProductsToCompare() {
         try {
             Thread.sleep(2000); // System will go on sleep mode to allow loading the homepage(very Slow)

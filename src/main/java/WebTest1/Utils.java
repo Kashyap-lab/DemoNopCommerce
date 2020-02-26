@@ -11,16 +11,19 @@ import java.util.Date;
 
 public class Utils extends BasePage {
 
-    public void clickOnElement(By by) {
-        driver.findElement(by).click();
-    }
+    public void clickOnElement(By by) { driver.findElement(by).click();   }
+
     public static String getTextFromElement(By by) {
         return driver.findElement(by).getText();
     }
-//    public static void selectTextFromDropDown(By by, String text) {
-//        Select select = new Select(driver.findElement(by));
-//        select.selectByVisibleText(text);
-//    }
+    public static void selectTextFromDropDown(By by, String text) {
+        Select selectCountry = new Select(driver.findElement(by));
+        selectCountry.selectByValue(text);
+    }
+    public static void SelectFromCurrencyDropdown(By by, String text) {
+        Select selectCurrency = new Select(driver.findElement(by));
+        selectCurrency.selectByValue(text);
+    }
     public void waitForClickable(By by, int time) {
         WebDriverWait wait = new WebDriverWait(driver, time);
         wait.until(ExpectedConditions.elementToBeClickable(by));
@@ -46,5 +49,13 @@ public class Utils extends BasePage {
     public static void clickOnDigitalDownloads(By by) {
         driver.findElement(by).click();
     }
+
+    //select from dropdown by visible text method
+    public static void selectFromDropdownByVisibleText(By by, String text) {
+        Select select = new Select(driver.findElement(by));
+        select.selectByVisibleText(text);
+    }
+
+
 }
 

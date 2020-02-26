@@ -25,7 +25,7 @@ public class RegistrationPage extends Utils {
             e.printStackTrace();
 }       sendText(_firstName, firstname);
         sendText(_lastName, lastname);
-        sendText(_email, "testtest"+timestamp+"@test.com");
+        sendText(_email, "abc"+timestamp+"@gmail.com");
         sendText(_password, "testtest");
         sendText(_confirmPassword, "testtest");
         clickOnElement(_registerButton);
