@@ -14,10 +14,10 @@ public class BrowserSelector  extends Utils{
             if (browser.equalsIgnoreCase("chrome")) {
                 System.setProperty("webdriver.chrome.driver", "src/test/resources/BrowserDriver/chromedriver.exe");
                 driver = new ChromeDriver();
-            } else if (browser.equalsIgnoreCase("Firefox")) {
+            } else if (browser.equalsIgnoreCase("firefox")) {
                 System.setProperty("webdriver.gecko.driver", "src/test/resources/BrowserDriver/geckodriver.exe");
                 driver = new FirefoxDriver();
-            } else if (browser.equalsIgnoreCase("Internet Explorer")) {
+            } else if (browser.equalsIgnoreCase("ie")) {
                 System.setProperty("webdriver.ie.driver", "src/test/resources/BrowserDriver/IEDriverServer.exe");
                 driver = new InternetExplorerDriver();
             }

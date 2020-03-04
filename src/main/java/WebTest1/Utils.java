@@ -39,12 +39,16 @@ public class Utils extends BasePage {
     public static void sendText(By by, String text) {
         driver.findElement(by).sendKeys(text);
     }
-    public static void assertTextMessage(String expected, By by) {
+
+    public static void assertTextMessage(String message, String expected, By by)
+    {
         String actual = getTextFromElement(by);
-        Assert.assertEquals("pass", expected, actual);
+        Assert.assertEquals(message, expected,actual);
     }
+//public static void
+
     public static void assertURL(String text) {
-        Assert.assertTrue(driver.getCurrentUrl().contains(text));
+      //  Assert.assertTrue(driver.getCurrentUrl().contains(text));
     }
     public static void clickOnDigitalDownloads(By by) {
         driver.findElement(by).click();
@@ -54,6 +58,10 @@ public class Utils extends BasePage {
     public static void selectFromDropdownByVisibleText(By by, String text) {
         Select select = new Select(driver.findElement(by));
         select.selectByVisibleText(text);
+    }
+    public void SelectFromDropDownByValue(By by, String text) {
+        Select select = new Select(driver.findElement(by));
+        select.selectByValue(text);
     }
 
 

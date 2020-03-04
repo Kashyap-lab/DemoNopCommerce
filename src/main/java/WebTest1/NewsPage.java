@@ -1,8 +1,10 @@
 package WebTest1;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 
 public class NewsPage extends Utils {
+    LoadProp loadProp = new LoadProp();
     private By _news = By.xpath("//a[contains(@href,'about')and(@class='read-more')]");
     private By _title = By.xpath("//input[@class='enter-comment-title']");
     private String title = "about nopcommerce website";
@@ -24,8 +26,15 @@ public class NewsPage extends Utils {
 
     }
 
+    private By _successMessage = By.xpath("//div[@class=\"result\"]");
+    String expected = "News comments is successfully added.";
+
+
+
+
+
     public void verifysuccessmessageofcomment() {
-        String expected = "News comment is successfully added.";
-        assertTextMessage("New comment is not successfully added", _successmessage);
+
+        assertTextMessage("",expected,_successMessage);
     }
 }

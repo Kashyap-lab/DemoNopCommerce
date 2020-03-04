@@ -2,7 +2,7 @@ package WebTest1;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
-
+   //UserShouldBeAbleToSortProductHighToLowByPrice
 public class Categories extends Utils {
     private By _noteBooks = By.linkText("Notebooks");
     private By _appleMac = By.linkText("Apple MacBook Pro 13-inch");
@@ -44,7 +44,7 @@ public class Categories extends Utils {
         // click send email button
         clickOnElement(_sendEmail);
 
-        // assertTextMessage( "Your message has been sent.",expected,_successfulReferMessage);
+        assertTextMessage( "Your message has been sent.",expected,_successfulReferMessage);
         Assert.assertNotEquals(expected,_successfulReferMessage);
     }
 }

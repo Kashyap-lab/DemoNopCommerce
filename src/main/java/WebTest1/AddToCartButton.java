@@ -11,6 +11,7 @@ public class AddToCartButton extends Utils {
     {
         List<WebElement> listOfItems = driver.findElements(By.xpath("//div[@class='product-item']"));
         for (WebElement item : listOfItems)
+
         {
             if (!item.getAttribute("innerHTML").contains("Add to cart"))
             {

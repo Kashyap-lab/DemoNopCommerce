@@ -2,31 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bb94e36-7b7c-44d9-86b5-9c4b6a7b0bda" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WebTest1/GuestCheckout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WebTest1/JewelryPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WebTest1/LoadProp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WebTest1/NewsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WebTest1/PaymentMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WebTest1/ShippingAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestData/testconfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/BrowserDriver/IEDriverServer.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/BrowserDriver/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebTest1/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebTest1/AddToCartButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest1/AddToCartButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebTest1/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest1/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WebTest1/BrowserSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest1/BrowserSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WebTest1/DigitalDownloads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest1/DigitalDownloads.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebTest1/Categories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest1/Categories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebTest1/CheckOutResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest1/CheckOutResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebTest1/Computers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest1/Computers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WebTest1/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest1/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebTest1/NewsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest1/NewsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebTest1/ProductComparision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest1/ProductComparision.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WebTest1/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest1/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebTest1/RegistrationResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest1/RegistrationResultPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WebTest1/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest1/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/WebTest1/TestSuit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTest1/TestSuit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/ExcelData/DemoNopCommerce.xlsb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/NopCommerceWebTest1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WebTest1/AddToCartButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebTest1/AddToCartButton.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/WebTest1/BrowserSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebTest1/BrowserSelector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WebTest1/DigitalDownloads.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebTest1/DigitalDownloads.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WebTest1/Categories.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebTest1/Categories.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WebTest1/CheckOutResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebTest1/CheckOutResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WebTest1/Computers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebTest1/Computers.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/WebTest1/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebTest1/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WebTest1/NewsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebTest1/NewsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WebTest1/ProductComparision.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebTest1/ProductComparision.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/WebTest1/RegistrationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebTest1/RegistrationPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WebTest1/RegistrationResultPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebTest1/RegistrationResultPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/WebTest1/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebTest1/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ExcelData/DemoNopCommerce.xlsb" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ExcelData/DemoNopCommerce.xlsb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/WebTest1/TestSuit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WebTest1/TestSuit.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +57,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1XqeyLq4FIZpd7msueOwukWAKjE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -60,23 +68,39 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/ExcelData" />
+    <property name="last_opened_file_path" value="C:/DATA/Kashyap/Tester/homework/bhabhi/NobCommerceDemo-master" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="WebTest1" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Kash\IdeaProjects\NopCommerceWebTest1\src\test\resources\BrowserDriver" />
       <recent name="C:\Users\Kash\IdeaProjects\NopCommerceWebTest1\src\test\resources\ExcelData" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="WebTest1" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestSuit.verifyGuestUserShouldBeAbleToCheckOutSuccessfully">
-    <configuration name="TestSuit.guestUserShouldBeAbleToAddNewComment" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="NopCommerceWebTest1" />
+  <component name="RunManager" selected="JUnit.RunTest">
+    <configuration name="RunTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DemoNopCommerceWebTest2Gherkin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebTest1" />
+      <option name="MAIN_CLASS_NAME" value="WebTest1.RunTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuit.RegisteredUserShouldBeAbleToReferAFriendSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoNopCommerceWebTest2Gherkin" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="WebTest1.*" />
@@ -85,7 +109,25 @@
       </extension>
       <option name="PACKAGE_NAME" value="WebTest1" />
       <option name="MAIN_CLASS_NAME" value="WebTest1.TestSuit" />
-      <option name="METHOD_NAME" value="guestUserShouldBeAbleToAddNewComment" />
+      <option name="METHOD_NAME" value="RegisteredUserShouldBeAbleToReferAFriendSuccessfully" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuit.nonRegisterUserShouldNotBeAbleToReferAProductToAFriend" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoNopCommerceWebTest2Gherkin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTest1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebTest1" />
+      <option name="MAIN_CLASS_NAME" value="WebTest1.TestSuit" />
+      <option name="METHOD_NAME" value="nonRegisterUserShouldNotBeAbleToReferAProductToAFriend" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -94,7 +136,7 @@
       </method>
     </configuration>
     <configuration name="TestSuit.userShouldBeAbleToVerifyCurrency" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="NopCommerceWebTest1" />
+      <module name="DemoNopCommerceWebTest2Gherkin" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="WebTest1.*" />
@@ -112,7 +154,7 @@
       </method>
     </configuration>
     <configuration name="TestSuit.verifyAddToCartButtonIsPresentOnAllFeaturedProduct" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="NopCommerceWebTest1" />
+      <module name="DemoNopCommerceWebTest2Gherkin" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="WebTest1.*" />
@@ -129,49 +171,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuit.verifyGetThePriceForEachProduct" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="NopCommerceWebTest1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="WebTest1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="WebTest1" />
-      <option name="MAIN_CLASS_NAME" value="WebTest1.TestSuit" />
-      <option name="METHOD_NAME" value="verifyGetThePriceForEachProduct" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSuit.verifyGuestUserShouldBeAbleToCheckOutSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="NopCommerceWebTest1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="WebTest1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="WebTest1" />
-      <option name="MAIN_CLASS_NAME" value="WebTest1.TestSuit" />
-      <option name="METHOD_NAME" value="verifyGuestUserShouldBeAbleToCheckOutSuccessfully" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestSuit.verifyGuestUserShouldBeAbleToCheckOutSuccessfully" />
-        <item itemvalue="TestNG.TestSuit.guestUserShouldBeAbleToAddNewComment" />
-        <item itemvalue="TestNG.TestSuit.userShouldBeAbleToVerifyCurrency" />
+        <item itemvalue="JUnit.RunTest" />
         <item itemvalue="TestNG.TestSuit.verifyAddToCartButtonIsPresentOnAllFeaturedProduct" />
-        <item itemvalue="TestNG.TestSuit.verifyGetThePriceForEachProduct" />
+        <item itemvalue="TestNG.TestSuit.userShouldBeAbleToVerifyCurrency" />
+        <item itemvalue="TestNG.TestSuit.RegisteredUserShouldBeAbleToReferAFriendSuccessfully" />
+        <item itemvalue="TestNG.TestSuit.nonRegisterUserShouldNotBeAbleToReferAProductToAFriend" />
       </list>
     </recent_temporary>
   </component>
@@ -193,10 +199,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="21" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1581779413329" />
-    <state x="399" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582479969569">
+    <state x="399" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583180749633">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="399" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1582479969569" />
+    <state x="399" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1583180749633" />
     <state x="303" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1582541914295">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -213,34 +219,52 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1581785335538" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1582471888936">
+    <state x="203" y="0" key="CommitChangelistDialog2" timestamp="1583207833884">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="203" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583207833884" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1583328421309">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1583328421309" />
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582471888936" />
-    <state width="1322" height="212" key="GridCell.Tab.0.bottom" timestamp="1582738223348">
+    <state width="1322" height="179" key="GridCell.Tab.0.bottom" timestamp="1583330322863">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="212" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582738223348" />
-    <state width="1322" height="212" key="GridCell.Tab.0.center" timestamp="1582738223348">
+    <state width="1322" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1583330322862" />
+    <state width="1322" height="265" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.768@1366.0.1366.768" timestamp="1583173436972" />
+    <state width="1322" height="127" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583208013600" />
+    <state width="1322" height="179" key="GridCell.Tab.0.center" timestamp="1583330322862">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="212" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582738223348" />
-    <state width="1322" height="212" key="GridCell.Tab.0.left" timestamp="1582738223347">
+    <state width="1322" height="179" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1583330322862" />
+    <state width="1322" height="265" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.768@1366.0.1366.768" timestamp="1583173436971" />
+    <state width="1322" height="127" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583208013600" />
+    <state width="1322" height="179" key="GridCell.Tab.0.left" timestamp="1583330322862">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="212" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582738223347" />
-    <state width="1322" height="212" key="GridCell.Tab.0.right" timestamp="1582738223348">
+    <state width="1322" height="179" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1583330322862" />
+    <state width="1322" height="265" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.768@1366.0.1366.768" timestamp="1583173436971" />
+    <state width="1322" height="127" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583208013600" />
+    <state width="1322" height="179" key="GridCell.Tab.0.right" timestamp="1583330322862">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="212" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582738223348" />
-    <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1582680252777">
+    <state width="1322" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1583330322862" />
+    <state width="1322" height="265" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.768@1366.0.1366.768" timestamp="1583173436972" />
+    <state width="1322" height="127" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583208013600" />
+    <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1583148989808">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="213" y="18" key="Maven.ArtifactSearchDialog/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1583148989808" />
     <state x="213" y="18" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1582680252777" />
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1582731945970">
+    <state x="136" y="0" key="SettingsEditor" timestamp="1583191757422">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582731945970" />
+    <state x="136" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1583191757422" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1583321485175">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583321485175" />
     <state x="380" y="96" width="606" height="536" key="find.popup" timestamp="1582598422932">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -249,6 +273,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="109" y="35" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1582569787627" />
+    <state x="435" y="284" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1583148393684">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="435" y="284" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1583148393684" />
+    <state x="339" y="157" key="run.anything.popup" timestamp="1583327248123">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="157" key="run.anything.popup/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1583327248123" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1582571060990">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -1,6 +1,9 @@
 package WebTest1;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import java.util.List;
 
 public class HomePage extends Utils {
 
@@ -18,6 +21,7 @@ public class HomePage extends Utils {
     //verify that user click on computer category
     public void clickOnComputerCategory(){clickOnElement(_computer);}
     //verify that user click on jewellery category
+    //List<WebEl
     public void clickOnJewelryCategory(){clickOnElement(_jewelryLink);
     //public void clickOnViewNewsArchive(){clickOnElement(_viewNewsArchive);}
 

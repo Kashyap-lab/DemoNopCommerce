@@ -32,6 +32,7 @@ public class TestSuit extends BaseTest {
 
 
 
+
     @Test
     public void userShouldAbleToRegisterSuccessfully() {
         //click on register button

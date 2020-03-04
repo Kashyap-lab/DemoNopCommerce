@@ -17,7 +17,7 @@ public class CheckOutResult extends Utils {
 //            e.printStackTrace();
 //        }
         assertURL("checkout completed");
-        //String accepted = "Your order has been successfully processed!";
-        //assertTextMessage("checkout is not successful",accepted,_checkoutsuccessmessage);
+        String accepted = "Your order has been successfully processed!";
+        assertTextMessage("checkout is not successful",accepted,_checkoutsuccessmessage);
     }
 }

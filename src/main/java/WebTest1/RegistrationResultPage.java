@@ -5,10 +5,10 @@ import org.openqa.selenium.By;
 public class RegistrationResultPage extends Utils {
 
     private By _registerSuccessMessage = By.className("result");
-    String expected = "Your registration completed";
+    String expected = "Yours registration completed";
 
     public void verifyUserSeeRegistrationSuccessMessage(){
         assertURL("registerresult");
-        assertTextMessage("Your registration completed",_registerSuccessMessage);
+        assertTextMessage("",expected,_registerSuccessMessage);
     }
 }
